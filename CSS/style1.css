@@ -36,12 +36,23 @@ padding-top: 10px
 .course-itim h2{
     text-align: center;
     font-size: 25px;
+    width: 300px;
+}
+
+.main{
+    margin-bottom: 20px;
 }
 
 .course{
     display: flex;
+    justify-content: space-around;
 }
 
 .course-itim{
-    border: 1px solid #000;
+    border: 1px dotted #000;
+    padding-left: 20px;
+}
+
+.footer{
+    text-align: center;
 }
